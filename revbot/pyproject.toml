@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "revbot"
+version = "0.1.0"
+description = ""
+authors = ["yatmanov <yatmnanov@megaputer.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytelegrambotapi = "^4.12.0"
+polyanalyst6api = "^0.26.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
